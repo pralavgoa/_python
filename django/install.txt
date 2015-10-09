@@ -1,0 +1,12 @@
+Install instructions for Django on Ubuntu 14.04, python 2.7.6
+
+1. sudo apt-get install python-pip
+2. sudo pip install Django
+3. git clone git://github.com/django/django.git
+4. sudo pip install -e django/
+5. python -c "import django; print(django.get_version())"
+6. cd ~/_python/django/
+7. django-admin startproject rexdash
+8. cd rexdash/rexdash; vi settings.py;
+9. python manage.py migrate
+10. python manage.py runserver 
