@@ -54,3 +54,17 @@ Install instructions for Django on Ubuntu 14.04, python 2.7.6
 	>>> Choice.objects.filter(question__pub_date__year=current_year)
 	>>> c = q.choice_set.filter(choice_text__startswith='Just hacking')
 	>>> c.delete()
+
+23. python manage.py createsuperuser
+    >>>username:admin, email:pralavgoa@gmail.com,password: Pr@l@v12
+24. vi polls/admin.py
+    >>> from .models import Question
+    >>> admin.site.register(Question) 
+    >>> #editing for views
+25. vi polls/models.py
+26. vi polls/admin.py
+27. mkdir templates
+28. vi rexdash/setting.py
+29. cd templates;mkdir admin;cd admin;
+30. cp ~/Desktop/projects/django/django/contrib/admin/templates/admin/base_site.html .
+31. vi base_site.html
