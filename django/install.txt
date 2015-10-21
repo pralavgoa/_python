@@ -68,3 +68,19 @@ Install instructions for Django on Ubuntu 14.04, python 2.7.6
 29. cd templates;mkdir admin;cd admin;
 30. cp ~/Desktop/projects/django/django/contrib/admin/templates/admin/base_site.html .
 31. vi base_site.html
+
+32. cd ../..; vi polls/views.py;
+33. vi polls/urls.py;
+34. vi rexdash/urls.py;
+35. vi polls/views.py;
+36. vi polls/urls.py;
+37. vi polls/views.py
+38. cd polls; mkdir templates;cd templates; mkdir polls; vi index.html;
+39. cd ../..; vi views.py
+40. vi templates/polls/detail.html
+
+41. vi templates/polls/index.html
+42. cd ..; vi rexdash/urls.py;
+43. vi polls/templates/polls/index.html
+44. vi polls/templates/polls/detail.html
+45. vi polls/templates/polls/results.html
